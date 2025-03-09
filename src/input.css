@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --animate-notification-enter: notification-enter 0.5s linear;
+  @keyframes notification-enter {
+    0% {
+      transform: translateX(18rem);
+    }
+    100% {
+      transform: translateX(0rem);
+    }
+  }
+}

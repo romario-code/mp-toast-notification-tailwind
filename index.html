@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="./src/output.css" rel="stylesheet" />
+    <title>Toast with TailwindCSS</title>
+  </head>
+  <body
+    class="min-h-screen w-screen flex flex-col justify-center items-center bg-gray-800 font-inter overflow-y-scroll overflow-x-hidden"
+  >
+    <section id="notification-container"></section>
+    <button
+      id="notification-button"
+      class="bg-green-300 text-gray-800 text-xl rounded-full py-5 px-4 cursor-pointer hover:bg-green-400 hover:text-gray-900 transition-colors font-inter font-semibold"
+    >
+      Show Notification
+    </button>
+    <script src="./src/index.js"></script>
+  </body>
+</html>
